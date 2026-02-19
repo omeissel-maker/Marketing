@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wer bin ich? – Markenidentität</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: #0d0d0d;
+      color: #f0f0f0;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 3rem;
+    }
+
+    header h1 {
+      font-size: clamp(2.5rem, 6vw, 5rem);
+      font-weight: 900;
+      letter-spacing: -0.02em;
+      background: linear-gradient(135deg, #e8c87a 0%, #d4a017 50%, #b8860b 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    header p.tagline {
+      margin-top: 0.75rem;
+      font-size: 1.1rem;
+      color: #aaa;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+    }
+
+    .identity-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 1.5rem;
+      max-width: 1000px;
+      width: 100%;
+    }
+
+    .card {
+      background: #1a1a1a;
+      border: 1px solid #2e2e2e;
+      border-radius: 12px;
+      padding: 2rem;
+      transition: border-color 0.25s, transform 0.25s;
+    }
+
+    .card:hover {
+      border-color: #d4a017;
+      transform: translateY(-4px);
+    }
+
+    .card .icon {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    .card h2 {
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: #d4a017;
+      margin-bottom: 0.5rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+
+    .card p {
+      font-size: 0.95rem;
+      line-height: 1.7;
+      color: #ccc;
+    }
+
+    footer {
+      margin-top: 3rem;
+      font-size: 0.8rem;
+      color: #555;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Wer bin ich?</h1>
+    <p class="tagline">Markenidentität &amp; Vision</p>
+  </header>
+
+  <main class="identity-grid">
+    <div class="card">
+      <div class="icon">🎯</div>
+      <h2>Mission</h2>
+      <p>Ich schaffe Mehrwert durch authentische Kommunikation, die Menschen bewegt – klar, direkt und ohne Kompromisse bei Qualitaet.</p>
+    </div>
+
+    <div class="card">
+      <div class="icon">💡</div>
+      <h2>Vision</h2>
+      <p>Eine Welt, in der Marken nicht nur Produkte verkaufen, sondern echte Verbindungen schaffen – nachhaltig, menschlich, vertrauenswuerdig.</p>
+    </div>
+
+    <div class="card">
+      <div class="icon">🔑</div>
+      <h2>Werte</h2>
+      <p>Ehrlichkeit. Praezision. Kreativitaet. Verlässlichkeit. Diese vier Saeulen tragen alles, was ich tue und kommuniziere.</p>
+    </div>
+
+    <div class="card">
+      <div class="icon">🌍</div>
+      <h2>Stimme</h2>
+      <p>Meine Markenstimme ist selbstsicher, warmherzig und direkt – auf Deutsch wie auf jeder anderen Sprache der Welt.</p>
+    </div>
+
+    <div class="card">
+      <div class="icon">⚡</div>
+      <h2>Versprechen</h2>
+      <p>Jede Botschaft, die ich sende, steht fuer ein Versprechen: Ich liefere, was ich sage – immer und ohne Ausrede.</p>
+    </div>
+
+    <div class="card">
+      <div class="icon">🇩🇪</div>
+      <h2>Identitaet</h2>
+      <p>Verwurzelt in deutschen Tugenden – Gruendlichkeit, Praezision und Qualitaetsbewusstsein – und offen fuer die Welt.</p>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 omeissel-maker &middot; Marketing &middot; German Identity Feature</p>
+  </footer>
+
+</body>
+</html>
